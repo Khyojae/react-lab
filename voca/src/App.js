@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import Hello from './component/Hello';
+import Welcome from './component/Welcome'
 //여기에서 코드를 구현 hmr
 function App() {
   
@@ -11,6 +13,14 @@ function App() {
   return (
    
     <div className="App">
+      <Hello />
+      <Welcome />
+      <Welcome />
+      <Welcome />
+    </div>
+
+
+   /* <div className="App">
       <h1
       style={{
         color:"#f0f",
@@ -20,7 +30,7 @@ function App() {
         Hello, {name}.<p>{2+3}</p> 
         </h1>
         <a href={naver.url}>{naver.name}</a>
-    </div>
+    </div>*/
   );
 }
 
