@@ -1,7 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 import Hello from './component/Hello';
-import Welcome from './component/Welcome'
+import Welcome from './component/Welcome';
+import styles from './App.module.css';
+
 //여기에서 코드를 구현 hmr
 function App() {
   
@@ -17,6 +19,7 @@ function App() {
       <Welcome />
       <Welcome />
       <Welcome />
+      <div className={styles.box}>App</div>
     </div>
 
 
